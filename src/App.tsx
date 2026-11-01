@@ -4,7 +4,7 @@ import {
   LayoutDashboard, DollarSign, Clock, Users, 
   Sparkles, UserCheck, Bot 
 } from 'lucide-react';
-import { EventPlan, EventType } from './types';
+import type { EventPlan, EventType } from './types';
 import { INITIAL_EVENTS, generateEventPlanWithAI } from './services/aiGenerator';
 import { Header } from './components/Header';
 import { EventOverview } from './components/EventOverview';

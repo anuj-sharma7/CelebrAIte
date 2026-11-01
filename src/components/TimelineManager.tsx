@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { 
   Clock, CheckCircle2, Circle, Plus, 
-  Calendar, CheckSquare, Sparkles, Trash2 
+  Calendar, Sparkles, Trash2 
 } from 'lucide-react';
-import { EventPlan, TimelinePhase, TimelineTask } from '../types';
+import type { EventPlan, TimelineTask } from '../types';
 
 interface TimelineManagerProps {
   event: EventPlan;

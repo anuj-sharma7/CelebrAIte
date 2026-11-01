@@ -1,6 +1,6 @@
 import React from 'react';
-import { X, Printer, Download, Sparkles, CheckSquare, Calendar, DollarSign, Users } from 'lucide-react';
-import { EventPlan } from '../types';
+import { X, Printer } from 'lucide-react';
+import type { EventPlan } from '../types';
 
 interface PrintDossierModalProps {
   isOpen: boolean;

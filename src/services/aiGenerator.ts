@@ -1,4 +1,4 @@
-import { EventPlan, EventType, BudgetItem, TimelinePhase, VendorItem, PersonalizedIdea, GuestItem } from '../types';
+import type { EventPlan, EventType, BudgetItem, TimelinePhase, VendorItem, PersonalizedIdea, GuestItem } from '../types';
 
 export const INITIAL_EVENTS: EventPlan[] = [
   {

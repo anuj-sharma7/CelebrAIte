@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { 
-  DollarSign, TrendingDown, Plus, AlertTriangle, 
-  CheckCircle2, Sparkles, Trash2, Edit3 
+  DollarSign, Plus, AlertTriangle, 
+  Sparkles, Trash2 
 } from 'lucide-react';
-import { EventPlan, BudgetItem } from '../types';
+import type { EventPlan, BudgetItem } from '../types';
 
 interface BudgetManagerProps {
   event: EventPlan;

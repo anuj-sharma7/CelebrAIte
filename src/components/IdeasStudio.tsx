@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { 
-  Sparkles, Copy, Check, Lightbulb, Utensils, 
-  MessageSquare, Wand2, Music, PartyPopper, Plus 
+  Sparkles, Copy, Check, Wand2, Plus 
 } from 'lucide-react';
-import { EventPlan, PersonalizedIdea } from '../types';
+import type { EventPlan, PersonalizedIdea } from '../types';
 
 interface IdeasStudioProps {
   event: EventPlan;

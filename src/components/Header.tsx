@@ -1,6 +1,6 @@
 import React from 'react';
 import { Sparkles, Calendar, PlusCircle, Download, Upload, Bot, PartyPopper } from 'lucide-react';
-import { EventPlan } from '../types';
+import type { EventPlan } from '../types';
 
 interface HeaderProps {
   events: EventPlan[];

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { 
   Users, CheckCircle2, Clock, XCircle, 
-  Plus, Utensils, Trash2, Search, Filter 
+  Plus, Utensils, Trash2, Search 
 } from 'lucide-react';
-import { EventPlan, GuestItem } from '../types';
+import type { EventPlan, GuestItem } from '../types';
 
 interface GuestManagerProps {
   event: EventPlan;

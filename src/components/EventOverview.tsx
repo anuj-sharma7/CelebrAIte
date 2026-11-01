@@ -3,7 +3,7 @@ import {
   Calendar, MapPin, Users, DollarSign, CheckSquare, 
   Palette, Clock, Sparkles, ChevronRight 
 } from 'lucide-react';
-import { EventPlan } from '../types';
+import type { EventPlan } from '../types';
 
 interface EventOverviewProps {
   event: EventPlan;

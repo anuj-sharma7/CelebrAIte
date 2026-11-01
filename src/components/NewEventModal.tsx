@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { X, Sparkles, Wand2, Lightbulb, CheckCircle2 } from 'lucide-react';
-import { EventType } from '../types';
+import type { EventType } from '../types';
 
 interface NewEventModalProps {
   isOpen: boolean;

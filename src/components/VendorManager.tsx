@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { 
   Users, Phone, Mail, CheckCircle, Circle, 
-  Plus, ExternalLink, Star, ShieldCheck, Sparkles, Trash2 
+  Plus, Star, ShieldCheck, Sparkles, Trash2 
 } from 'lucide-react';
-import { EventPlan, VendorItem } from '../types';
+import type { EventPlan, VendorItem } from '../types';
 
 interface VendorManagerProps {
   event: EventPlan;

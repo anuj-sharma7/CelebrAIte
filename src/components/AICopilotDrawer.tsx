@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { 
   X, Send, Bot, Sparkles, User, Lightbulb, 
-  Trash2, CornerDownLeft, RefreshCw 
+  Trash2 
 } from 'lucide-react';
-import { EventPlan, ChatMessage } from '../types';
+import type { EventPlan, ChatMessage } from '../types';
 import { getCopilotResponse } from '../services/aiGenerator';
 
 interface AICopilotDrawerProps {
